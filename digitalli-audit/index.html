@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Branding Operations Audit | Digitalli</title>
-  <meta name="description" content="Free 5-minute audit. Find out if your branded merch operation runs on a system or on one person. Get your score, tier and first fix." />
+  <title>How Well Are You Managing Your Brand Operations? | Digitalli Audit</title>
+  <meta name="description" content="A 5-minute audit for business owners, marketing and HR leaders. Answer 15 questions to identify gaps across vendors, inventory, delivery and spend, and get a clearer view of where your operations stand." />
   <meta name="theme-color" content="#1C2E2A" />
-  <meta property="og:title" content="Is your merch operation running on a system, or on one person's phone?" />
-  <meta property="og:description" content="Take the free Branding Operations Audit by Digitalli. 15 questions, instant score, clear next step." />
+  <meta property="og:title" content="How well are you really managing your brand operations?" />
+  <meta property="og:description" content="A 5-minute audit for business owners, marketing and HR leaders. Answer 15 questions to identify gaps across vendors, inventory, delivery and spend, and get a clearer view of where your operations stand." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://audit.digitallikraft.com" />
   <style>
@@ -190,41 +190,36 @@
     .logo { margin-bottom: 1.5rem; }
 
     .hero {
-      background: linear-gradient(160deg, #1C2E2A 0%, #21403a 65%, #1C2E2A 100%);
-      border-radius: 16px; padding: 2.75rem 2.25rem 2rem; color: #fff;
-      position: relative; overflow: hidden; margin-bottom: 3rem;
+      background: var(--text-primary);
+      border-radius: 12px; padding: 3rem 2.5rem 2rem; color: #fff;
+      margin-bottom: 3.5rem;
     }
-    .hero::before { content: ""; position: absolute; top: -120px; right: -100px; width: 340px; height: 340px; border-radius: 50%; background: radial-gradient(circle, rgba(93,207,202,.28), transparent 68%); }
-    .hero::after { content: ""; position: absolute; bottom: -140px; left: -90px; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle, rgba(232,100,122,.18), transparent 68%); }
-    .hero > * { position: relative; z-index: 1; }
-    .eyebrow { display: inline-block; font-size: 12px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-light); border: 1px solid rgba(93,207,202,.4); border-radius: 100px; padding: 6px 14px; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: 36px; line-height: 1.18; font-weight: 700; letter-spacing: -.01em; margin-bottom: 1.1rem; max-width: 620px; }
-    .hero h1 span { color: var(--accent-light); }
-    .hero .lead { font-size: 17px; line-height: 1.65; color: rgba(255,255,255,.82); max-width: 520px; margin-bottom: 1.75rem; }
-    .cta-main { background: var(--coral); color: #fff; border: none; border-radius: 10px; padding: 15px 32px; font-size: 16px; font-weight: 600; font-family: inherit; cursor: pointer; box-shadow: 0 8px 24px rgba(232,100,122,.35); transition: transform .15s, box-shadow .15s; }
-    .cta-main:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(232,100,122,.45); }
+    .eyebrow { display: block; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-light); margin-bottom: 1.25rem; }
+    .hero h1 { font-size: 34px; line-height: 1.2; font-weight: 600; letter-spacing: -.01em; margin-bottom: 1rem; max-width: 600px; }
+    .hero .lead { font-size: 16px; line-height: 1.7; color: rgba(255,255,255,.8); max-width: 540px; margin-bottom: 1.75rem; }
+    .cta-main { background: var(--coral); color: #fff; border: none; border-radius: 8px; padding: 14px 28px; font-size: 15px; font-weight: 600; font-family: inherit; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,.15); transition: background .15s; }
+    .cta-main:hover { background: #d9566c; }
     .cta-main:focus-visible, .option:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent-light); outline-offset: 2px; }
     .hero-note { font-size: 13px; color: rgba(255,255,255,.62); margin-top: 1rem; line-height: 1.5; max-width: 460px; }
-    .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,.14); }
+    .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,.12); }
     .stat strong { display: block; font-size: 22px; font-weight: 700; color: #fff; }
     .stat span { font-size: 12px; color: rgba(255,255,255,.6); letter-spacing: .03em; }
 
     .lp-section { margin-bottom: 3rem; }
-    .lp-title { font-size: 24px; font-weight: 700; margin-bottom: .6rem; letter-spacing: -.005em; }
+    .lp-title { font-size: 24px; font-weight: 600; margin-bottom: .6rem; letter-spacing: -.005em; }
     .lp-sub { font-size: 15px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.25rem; }
 
-    .pain-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 1rem; }
-    .pain-card { background: var(--surface); border: 0.5px solid var(--border); border-left: 3px solid var(--coral); border-radius: var(--radius); padding: 16px 16px; font-size: 15px; font-weight: 500; line-height: 1.5; }
 
-    .area-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
-    .area-card { background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 20px; transition: border-color .15s, transform .15s; }
-    .area-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .area-num { display: inline-block; font-size: 12px; font-weight: 700; color: var(--accent); background: #e0f8f7; border-radius: 100px; padding: 3px 10px; margin-bottom: 10px; }
-    .area-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
-    .area-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+    .area-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .area-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; display: flex; flex-direction: column; }
+    .area-tag { font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--coral); margin-bottom: 12px; }
+    .area-card h3 { font-size: 17px; font-weight: 600; line-height: 1.35; margin-bottom: 8px; }
+    .area-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.65; margin-bottom: 18px; }
+    .area-measure { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text-muted); line-height: 1.55; }
+    .area-measure b { display: block; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin-bottom: 3px; }
 
-    .sample { position: relative; background: var(--surface); border: 0.5px solid var(--border-strong); border-radius: 14px; padding: 1.75rem 1.5rem 1.25rem; box-shadow: 0 10px 30px rgba(28,46,42,.08); }
-    .sample-tag { position: absolute; top: -11px; left: 20px; background: var(--coral); color: #fff; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; }
+    .sample { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.75rem 1.5rem 1.25rem; box-shadow: 0 1px 3px rgba(28,46,42,.06); }
+      .sample-tag { position: absolute; top: -11px; left: 20px; background: var(--text-primary); color: #fff; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; }
     .sample-top { display: flex; align-items: center; gap: 18px; margin-bottom: 1.25rem; }
     .sample-score { font-size: 48px; font-weight: 700; line-height: 1; }
     .sample-pill { display: inline-block; background: var(--functional-bg); color: var(--functional-text); font-size: 12px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; margin-bottom: 4px; }
@@ -241,13 +236,13 @@
     .chip.opt { background: var(--optimised-bg); color: var(--optimised-text); }
 
     .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-    .step { background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 18px; }
+    .step { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
     .step > span { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: var(--text-primary); color: #fff; font-size: 13px; font-weight: 600; margin-bottom: 10px; }
     .step p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
     .step strong { color: var(--text-primary); }
 
-    .final-cta { background: var(--text-primary); color: #fff; border-radius: 16px; text-align: center; padding: 2.5rem 1.75rem; margin-bottom: 1rem; }
-    .final-cta h2 { font-size: 24px; font-weight: 700; margin-bottom: .5rem; }
+    .final-cta { background: var(--text-primary); color: #fff; border-radius: 12px; text-align: center; padding: 2.5rem 1.75rem; margin-bottom: 1rem; }
+    .final-cta h2 { font-size: 24px; font-weight: 600; margin-bottom: .5rem; }
     .final-cta p { font-size: 15px; color: rgba(255,255,255,.75); margin-bottom: 1.5rem; }
     .final-cta .byline { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-light); margin: 1.25rem 0 0; }
 
@@ -259,12 +254,12 @@
     .share-copy { background: var(--surface); }
 
     @media (max-width: 640px) {
-      .hero { padding: 2rem 1.35rem 1.5rem; border-radius: 14px; margin-bottom: 2.25rem; }
-      .hero h1 { font-size: 27px; }
+      .hero { padding: 2rem 1.35rem 1.5rem; border-radius: 10px; margin-bottom: 2.25rem; }
+      .hero h1 { font-size: 26px; }
       .hero .lead { font-size: 16px; }
       .cta-main { width: 100%; }
       .stat-row { grid-template-columns: repeat(2, 1fr); }
-      .pain-grid, .area-grid, .steps-grid { grid-template-columns: 1fr; }
+      .area-grid, .steps-grid { grid-template-columns: 1fr; }
       .lp-title, .final-cta h2 { font-size: 21px; }
       .sticky-cta { display: block; }
       #intro-screen { padding-bottom: 70px; }
@@ -287,43 +282,53 @@
   <div id="intro-screen">
 
     <section class="hero">
-      <span class="eyebrow">Free &middot; 5 minutes &middot; Instant score</span>
-      <h1>Is your merch operation running on a system, or on <span>one person's phone</span>?</h1>
-      <p class="lead">Answer 15 quick questions. Get your score, your tier, and the first thing to fix. No sales pitch, no generic advice.</p>
-      <button class="cta-main" id="hero-cta" onclick="startQuiz()">Get my score</button>
-      <p class="hero-note">No login. You'll enter your name and work email at the end to unlock your results.</p>
+      <span class="eyebrow">Branding Operations Audit</span>
+      <h1>How well are you really managing your brand operations?</h1>
+      <p class="lead">A 5-minute audit for business owners, marketing and HR leaders. Answer 15 questions to identify gaps across vendors, inventory, delivery and spend, and get a clearer view of where your operations stand.</p>
+      <button class="cta-main" id="hero-cta" onclick="startQuiz()">Start the audit</button>
+      <p class="hero-note">Free. Approximately 5 minutes.</p>
       <div class="stat-row">
         <div class="stat"><strong>15</strong><span>Questions</span></div>
         <div class="stat"><strong>4</strong><span>Areas scored</span></div>
-        <div class="stat"><strong>3</strong><span>Possible tiers</span></div>
-        <div class="stat"><strong>Free</strong><span>Always</span></div>
+        <div class="stat"><strong>3</strong><span>Performance tiers</span></div>
+        <div class="stat"><strong>5 min</strong><span>To complete</span></div>
       </div>
     </section>
 
     <section class="lp-section">
-      <h2 class="lp-title">Sound familiar?</h2>
-      <div class="pain-grid">
-        <div class="pain-card">Someone on your team is chasing vendors again.</div>
-        <div class="pain-card">Nobody can say how much stock you actually have.</div>
-        <div class="pain-card">The delivery date moved. Again.</div>
-      </div>
-      <p class="lp-sub" style="margin-top:1rem;">You're growing. Orders are coming in and your brand is showing up in more places. That's not a people problem. That's an operations problem.</p>
-    </section>
-
-    <section class="lp-section">
-      <h2 class="lp-title">What the audit checks</h2>
-      <p class="lp-sub">The four places branded merch operations tend to break down.</p>
+      <h2 class="lp-title">Where brand operations break down</h2>
+      <p class="lp-sub">Growth exposes weak operations. These four failure points tend to surface first as volume increases, and each one carries a cost.</p>
       <div class="area-grid">
-        <div class="area-card"><span class="area-num">01</span><h3>Vendor setup</h3><p>Who makes your merch, who owns the relationship, and how often quality slips.</p></div>
-        <div class="area-card"><span class="area-num">02</span><h3>Inventory &amp; visibility</h3><p>Whether you know what's in stock before a campaign, not after.</p></div>
-        <div class="area-card"><span class="area-num">03</span><h3>Fulfilment &amp; timelines</h3><p>How reliable your lead times and nationwide dispatch really are.</p></div>
-        <div class="area-card"><span class="area-num">04</span><h3>Cost &amp; control</h3><p>Your true cost per unit, including the emergency sourcing nobody budgets for.</p></div>
+        <div class="area-card">
+          <span class="area-tag">Problem 01</span>
+          <h3>Inconsistent quality and unclear ownership</h3>
+          <p>Multiple suppliers and no single owner mean every order starts from scratch. Errors repeat and no one is accountable.</p>
+          <div class="area-measure"><b>The audit measures</b>Vendor structure, ownership and quality incidents.</div>
+        </div>
+        <div class="area-card">
+          <span class="area-tag">Problem 02</span>
+          <h3>Stock decisions made without data</h3>
+          <p>Stockouts mid-campaign, over-ordering and rush purchases at premium prices, all from a lack of visibility.</p>
+          <div class="area-measure"><b>The audit measures</b>Stock visibility, dispatch tracking and stockout frequency.</div>
+        </div>
+        <div class="area-card">
+          <span class="area-tag">Problem 03</span>
+          <h3>Missed delivery commitments</h3>
+          <p>Slipping timelines and improvised dispatch weaken client confidence and put campaign launches at risk.</p>
+          <div class="area-measure"><b>The audit measures</b>Lead times, timeline reliability and nationwide dispatch.</div>
+        </div>
+        <div class="area-card">
+          <span class="area-tag">Problem 04</span>
+          <h3>True cost left unmeasured</h3>
+          <p>Emergency sourcing, waste and staff hours spent chasing suppliers rarely reach the budget line, so margin erodes unnoticed.</p>
+          <div class="area-measure"><b>The audit measures</b>Cost per unit, rush spend and operational ownership.</div>
+        </div>
       </div>
     </section>
 
     <section class="lp-section">
       <h2 class="lp-title">What you walk away with</h2>
-      <p class="lp-sub">A real score, a clear tier, and a specific plan for each area. Here's what a result looks like.</p>
+      <p class="lp-sub">A score, a tier and a specific recommendation for each area. This is what a result looks like.</p>
       <div class="sample">
         <span class="sample-tag">Example result</span>
         <div class="sample-top">
@@ -349,21 +354,21 @@
     <section class="lp-section">
       <h2 class="lp-title">How it works</h2>
       <div class="steps-grid">
-        <div class="step"><span>1</span><p><strong>Answer 15 questions.</strong> Tap an option. No typing except one optional question.</p></div>
-        <div class="step"><span>2</span><p><strong>Unlock your score.</strong> Add your name and work email to see your results.</p></div>
-        <div class="step"><span>3</span><p><strong>Fix what matters.</strong> Start with the weakest area. Book a free review if you want help.</p></div>
+        <div class="step"><span>1</span><p><strong>Answer 15 questions.</strong> Select one option per question. One open question is optional.</p></div>
+        <div class="step"><span>2</span><p><strong>Receive your score.</strong> An overall score, your tier and a breakdown by area.</p></div>
+        <div class="step"><span>3</span><p><strong>Act on priorities.</strong> Start with the weakest area. Book a free review if you want support.</p></div>
       </div>
     </section>
 
     <section class="final-cta">
-      <h2>Find out where your ops really stand.</h2>
-      <p>Five minutes now can save you the next emergency reorder.</p>
+      <h2>Understand where your operations stand.</h2>
+      <p>Five minutes. A clear score and a prioritised next step.</p>
       <button class="cta-main" id="final-cta" onclick="startQuiz()">Start the audit</button>
       <p class="byline">Brand Infrastructure. Built for Growth.</p>
     </section>
 
     <div class="sticky-cta" id="sticky-cta">
-      <button class="cta-main" onclick="startQuiz()">Get my score</button>
+      <button class="cta-main" onclick="startQuiz()">Start the audit</button>
     </div>
   </div>
 
